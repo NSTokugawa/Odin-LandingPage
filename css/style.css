@@ -11,10 +11,11 @@ body {
 
 header {
   background-color: #1F2937;
+  height: 500px;
 }
 
 .hero {
-  margin: 0px 10% 7% 10%;
+  margin: 0% 10% 7% 10%;
 }
 
 header .logo {
@@ -25,6 +26,7 @@ header .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 15px;
 }
 
 .navbar ul {
@@ -37,7 +39,7 @@ header .logo {
 .navbar a {
   text-decoration: none;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -45,6 +47,12 @@ header .logo {
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0px;
 }
 
 .header-content h1 {
