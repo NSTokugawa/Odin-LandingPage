@@ -9,24 +9,27 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  line-height: 1.4;
+}
+
 header {
   background-color: #1F2937;
   height: 500px;
 }
 
 .hero {
-  margin: 0% 10% 7% 10%;
-}
-
-header .logo {
-
+  display: flex;
+  flex-direction: column;
+  margin: 0% 10%;
+  max-height: 100%;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 .navbar ul {
@@ -47,16 +50,49 @@ header .logo {
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+  padding: 10px;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
-  margin: 100px 0px;
+  margin-top: 100px;
+  overflow: hidden;
+  height: 250px;
+}
+
+.header-content {
+  max-width: 50%;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
 }
 
 .header-content h1 {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+}
+
+.header-content p {
+  color: #F9FAF8;
+  padding: 20px 0px;
+}
+
+header img {
+  padding-left: 10px;
+  max-width: 50%;
+
+}
+
+.button {
+  background: #3882F6;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #F9FAF8;
+  cursor: pointer;
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+  font-weight: 900;
 }
