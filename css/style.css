@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #F9FAF8;
 }
 
 p {
@@ -179,9 +180,31 @@ header img {
 
 .signup .signup-container {
   display: flex;
+  justify-content: space-between;
   width: 80%;
   background-color: #3882F6;
-  height: 250px;
+  height: 150px;
   align-self: center;
-  margin: auto
+  margin: auto;
+  border-radius: 15px;
+}
+
+.signup .signup-container .signup-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  justify-content: center;
+  color: #F9FAF8;
+}
+
+.signup-text p {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.btn-clear {
+  align-self: center;
+  border: #F9FAF8 2px solid;
+  margin-right: 100px;
+  max-width: 10%
 }
