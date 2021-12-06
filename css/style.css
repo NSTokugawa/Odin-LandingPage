@@ -112,7 +112,7 @@ header img {
 
 .boxes .info {
   text-align: center;
-  padding: 30px 0px;
+  padding: 20px 0px 0px 0px;
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
@@ -184,9 +184,8 @@ header img {
   width: 80%;
   background-color: #3882F6;
   height: 150px;
-  align-self: center;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .signup .signup-container .signup-text {
@@ -207,4 +206,17 @@ header img {
   border: #F9FAF8 2px solid;
   margin-right: 100px;
   max-width: 10%
+}
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  height: 75px;
+  color: #F9FAF8;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
 }
