@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
+/*Hero*/
+
 * {
   margin: 0;
   padding: 0;
@@ -42,9 +44,14 @@ header {
 .navbar a {
   text-decoration: none;
   text-align: center;
-  padding: 10px;
+  margin: 10px;
   font-size: 18px;
   color: #E5E7EB;
+  padding-bottom: 5px;
+}
+
+.navbar a:hover {
+  border-bottom: #E5E7EB solid 2px;
 }
 
 .logo {
@@ -95,4 +102,47 @@ header img {
   padding: 5px;
   text-align: center;
   font-weight: 900;
+}
+
+/*Boxes*/
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+.boxes .info {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+
+.flex-container {
+  display: flex;
+  margin: 0% 20%;
+  justify-content: center;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+}
+
+.flex-item img {
+  border: #3882F6 solid 5px;
+  border-radius: 15px;
+  height: 200px;
+  max-width: 200px;
+}
+
+.flex-item p {
+  margin-top: 10px;
+  text-align: center;
+  align-self: center;
+  max-width: 200px;
 }
