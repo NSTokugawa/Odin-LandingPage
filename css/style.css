@@ -21,27 +21,27 @@ header {
   height: 500px;
 }
 
-.hero {
+header .hero {
   display: flex;
   flex-direction: column;
   margin: 0% 10%;
   max-height: 100%;
 }
 
-.navbar {
+header .hero nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 5px;
 }
 
-.navbar ul {
+header .hero nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
 
-.navbar a {
+header .hero nav a {
   text-decoration: none;
   text-align: center;
   margin: 10px;
@@ -50,24 +50,24 @@ header {
   padding-bottom: 5px;
 }
 
-.navbar a:hover {
+header .hero nav a:hover {
   border-bottom: #E5E7EB solid 2px;
 }
 
-.logo {
+header .hero nav .logo {
   font-size: 24px;
   color: #F9FAF8;
   padding: 10px 10px 10px 0px;
 }
 
-.header-container {
+header .hero .header-container {
   display: flex;
   margin-top: 100px;
   overflow: hidden;
   height: 250px;
 }
 
-.header-content {
+header .hero .header-container .header-content {
   max-width: 50%;
   padding-right: 40px;
   display: flex;
@@ -75,32 +75,20 @@ header {
   max-height: 100%;
 }
 
-.header-content h1 {
+header .hero .header-container .header-content h1 {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
 }
 
-.header-content p {
+header .hero .header-container .header-content p {
   color: #F9FAF8;
   padding: 20px 0px;
 }
 
-header img {
+header .hero .header-container img {
   min-width: 50%;
   object-fit: cover;
-}
-
-.button {
-  background: #3882F6;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #F9FAF8;
-  cursor: pointer;
-  width: 25%;
-  padding: 5px;
-  text-align: center;
-  font-weight: 900;
 }
 
 /*Boxes*/
@@ -119,21 +107,20 @@ header img {
   color: #1F2937;
 }
 
-
-.flex-container {
+.boxes .flex-container {
   display: flex;
   margin: 0% 20%;
   justify-content: center;
 }
 
-.flex-item {
+.boxes .flex-container .flex-item {
   display: flex;
   flex-direction: column;
   margin: 20px;
   justify-content: center;
 }
 
-.flex-item img {
+.boxes .flex-container .flex-item img {
   border: #3882F6 solid 5px;
   border-radius: 15px;
   height: 200px;
@@ -141,7 +128,7 @@ header img {
   object-fit: cover;
 }
 
-.flex-item p {
+.boxes .flex-container .flex-item p {
   margin-top: 10px;
   text-align: center;
   align-self: center;
@@ -198,22 +185,21 @@ header img {
   color: #F9FAF8;
 }
 
-.signup-text p {
+.signup .signup-container .signup-text p {
   font-size: 18px;
   color: #F9FAF8;
 }
 
-.btn-clear {
+.signup .signup-container .btn-clear {
   align-self: center;
   border: #F9FAF8 2px solid;
   margin-right: 100px;
   max-width: 10%
 }
 
-
 /* Footer */
 
-.footer {
+footer {
   display: flex;
   background-color: #1F2937;
   height: 75px;
@@ -221,4 +207,18 @@ header img {
   font-size: 18px;
   justify-content: center;
   align-items: center;
+}
+
+/* Buttons */
+
+.button {
+  background: #3882F6;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #F9FAF8;
+  cursor: pointer;
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+  font-weight: 900;
 }
